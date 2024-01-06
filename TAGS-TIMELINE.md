@@ -1,6 +1,6 @@
-# Sprint Timeline for Bitcell Development
+# Versioning & Tags Timeline for Bitcell Development
 
-Below are the sprints with the estimated sprint points for each task and totals for each sprint.
+The following timeline outlines suggested version tags for the completion of each sprint in the Bitcell development process. This ensures a consistent and trackable progression of the project.
 
 ## Sprint 1: Environment Setup & Initial Architecture Design
 
@@ -13,6 +13,8 @@ Below are the sprints with the estimated sprint points for each task and totals 
 - [ ] Choose a tech stack that scales well and meets the financial tool's requirements. `5 points`
 - [ ] Design the initial architecture of the Bitcell platform, ensuring all components are defined. `8 points`
 - [ ] Create and document a detailed component diagram that outlines the relationships and processes within the system. `4 points`
+
+**Version Tag: `v0.1.0-environment-setup`**
 
 ## Sprint 2: Core Development - Heart & Lipid Store / Vacuole & Nucleus
 
@@ -31,9 +33,11 @@ Below are the sprints with the estimated sprint points for each task and totals 
 - [ ] Develop local ledger management within the nucleus to keep track of transactions and balances. `5 points`
 - [ ] Implement a remote ledger backup system using Kafka for redundancy and resilience. `4 points`
 
+**Version Tag: `v0.2.0-core-development`**
+
 ## Sprint 3: Smart Contracts & Messaging System / Security Measures & Compliances
 
-### Days 4-6
+### Days 4
 
 #### **Total Sprint Points: 24**
 
@@ -45,9 +49,11 @@ Below are the sprints with the estimated sprint points for each task and totals 
 - [ ] Review and apply security standards to fortify the lipid membrane which acts as a defense mechanism. `4 points`
 - [ ] Ensure that developed features comply with applicable financial regulations to avoid legal issues. `5 points`
 
+**Version Tag: `v0.3.0-smart-contracts-security`**
+
 ## Sprint 4: Scalability & Elasticity Solutions / Testing & Debugging / Test Network Construction - Bitcellular
 
-### Days 7-9
+### Days 5-6
 
 #### **Total Sprint Points: 43**
 
@@ -66,9 +72,11 @@ Below are the sprints with the estimated sprint points for each task and totals 
 - [ ] Prepare a secure blockchain-based network structure that will tie the Bitcells together. `4 points`
 - [ ] Document the governance and operating procedures for the Bitcellular network. `3 points`
 
+**Version Tag: `v0.4.0-scalability-testing`**
+
 ## Sprint 5: Deployment & Monitoring / Documentation & Training
 
-### Days 10-12
+### Days 7
 
 #### **Total Sprint Points: 29**
 
@@ -82,9 +90,11 @@ Below are the sprints with the estimated sprint points for each task and totals 
 - [ ] Organize training sessions for internal staff, making sure they are familiar with the system's operation. `4 points`
 - [ ] Prepare educational materials and user guides for external users. `3 points`
 
+**Version Tag: `v0.5.0-deployment-docs-training`**
+
 ## Sprint 6: Final Review & Launch Preparation
 
-### Days 13-15
+### Days 8
 
 #### **Total Sprint Points: 23**
 
@@ -93,4 +103,6 @@ Below are the sprints with the estimated sprint points for each task and totals 
 - [ ] Ensure that all components are fully operational and meeting expectations. `8 points`
 - [ ] Launch Bitcell to the public or targeted user base after successful completion of all checks. `5 points`
 
-Remember, these points are estimates and may need to be adjusted as work progresses and more information becomes available.
+**Version Tag: `v1.0.0-launch`**
+
+All version tags follow semantic versioning principles and may have additional patch versions (e.g., `v0.2.1`, `v0.2.2`) based on bug fixes made between the major milestones. The `v1.0.0` tag signifies the official release of the Bitcell platform ready for public use. Remember that tags should be created in the version control system at every milestone to mark the progress and allow for better management of the codebase.
