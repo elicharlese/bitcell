@@ -1,5 +1,4 @@
-# ![Bitcell Logo (2)](https://github.com/elicharlese/Bitcell/assets/61543012/9bdaa9d0-1a78-4495-aad6-32d85818ddae)
-Bitcell :zap:
+# <img src="https://github.com/elicharlese/Bitcell/assets/61543012/9bdaa9d0-1a78-4495-aad6-32d85818ddae" alt="Image" style="width: 35px; height:35px; padding: 5px;"> Bitcell
 
 Welcome to the **Bitcell Project**, a meticulous framework designed for unparalleled fiscal governance. 🌐
 
