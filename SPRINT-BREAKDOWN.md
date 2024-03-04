@@ -10,7 +10,7 @@ Below are the sprints with the estimated sprint points for each task and totals 
 
 - [ ] Set up the integrated development environment (IDE) and select the appropriate tools. `3 points`
 - [ ] Establish version control using Git and host the repository on a platform like GitHub or GitLab. `2 points`
-- [ ] Choose a tech stack that scales well and meets the financial tool's requirements. `5 points`
+- [ ] Choose a tecHello stack that scales well and meets the financial tool's requirements. `5 points`
 - [ ] Design the initial architecture of the Bitcell platform, ensuring all components are defined. `8 points`
 - [ ] Create and document a detailed component diagram that outlines the relationships and processes within the system. `4 points`
 
