@@ -69,7 +69,7 @@ Complex Component Diagram with Security Layers:
                          | API Calls                          | Data Flow
                          |                                    |
               +----------v----------+              +----------v----------+
-              |                   Database               | 
+              |                   Database               |
               |---------------------|              |---------------------|
               | Chainlink Oracle     |              | NEAR Blockchain     |
               | NEAR Blockchain     |              +---------------------+
