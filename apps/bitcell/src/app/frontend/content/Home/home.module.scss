@@ -1,0 +1,154 @@
+/* Variables */
+$section-padding: 60px;
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+$text-color: #343a40;
+
+/* Testimonials Section */
+.testimonials {
+  padding: $section-padding;
+  text-align: center;
+
+  h2 {
+    color: $primary-color;
+    margin-bottom: 1em;
+  }
+
+  .testimonialList {
+    display: flex;
+    justify-content: space-around;
+
+    .testimonial {
+      width: 30%;
+      padding: 1em;
+      background: white;
+      border: 1px solid $secondary-color;
+      border-radius: 4px;
+
+      p:first-child {
+        color: $text-color;
+        font-style: italic;
+      }
+
+      p:last-child {
+        color: $secondary-color;
+        font-size: 0.9em;
+      }
+    }
+  }
+}
+
+/* Contact Form Section */
+.contactForm {
+  padding: $section-padding;
+
+  h2 {
+    color: $primary-color;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .formGroup {
+      margin-bottom: 1em;
+      width: 80%;
+      max-width: 500px;
+
+      label {
+        display: block;
+        margin-bottom: 0.5em;
+        color: $text-color;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 0.5em;
+        border: 1px solid $secondary-color;
+        border-radius: 4px;
+      }
+
+      textarea {
+        resize: vertical;
+        height: 100px;
+      }
+    }
+
+    button {
+      padding: 0.7em 1.5em;
+      background-color: $primary-color;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: lighten($primary-color, 10%);
+      }
+    }
+  }
+}
+
+/* General Styles */
+.calendar, .performanceGraph, .kpiCards, .notifications, .recentActivities, .botSettings {
+  padding: $section-padding;
+  text-align: center;
+
+  h2 {
+    color: $primary-color;
+  }
+}
+
+/* Hero Section */
+.hero {
+  background-color: $primary-color;
+  color: white;
+  padding: $section-padding;
+  text-align: center;
+
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+
+/* Features Section */
+.features {
+  padding: $section-padding;
+  background-color: $background-color;
+  text-align: center;
+
+  h2 {
+    color: $primary-color;
+    margin-bottom: 1em;
+  }
+
+  .featureList {
+    display: flex;
+    justify-content: space-around;
+
+    .feature {
+      width: 30%;
+      padding: 1em;
+      background: white;
+      border: 1px solid $secondary-color;
+      border-radius: 4px;
+
+      h3 {
+        color: $text-color;
+      }
+
+      p {
+        color: $secondary-color;
+      }
+    }
+  }
+}

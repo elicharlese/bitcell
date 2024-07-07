@@ -1,0 +1,120 @@
+/* Global Styles */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Resetting default margins and paddings and setting border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* A tag styles */
+a {
+  color: $app-accent-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+:root {
+  --app-accent-color: #61dafb;
+  --app-primary-color: #282c34;
+}
+
+/* Header Styles */
+.header {
+  @apply bg-primary text-accent py-5 text-center;
+
+  h1 {
+    @apply m-0 text-3xl;
+  }
+}
+
+/* Footer Styles */
+.footer {
+  @apply bg-gray-900 text-white py-5 text-center;
+}
+
+/* Navigation Styles */
+.nav {
+  @apply flex justify-around py-6 bg-primary-light;
+
+  ul {
+    @apply flex gap-8 list-none;
+
+    li {
+      a {
+        @apply text-accent no-underline;
+
+        &.active {
+          @apply underline;
+        }
+
+        &:hover {
+          @apply text-accent-dark;
+        }
+      }
+    }
+  }
+}
+
+/* Section Styles */
+.section {
+  @apply p-8 border rounded mb-8;
+
+  h2 {
+    @apply mb-4;
+  }
+
+  p {
+    @apply text-gray-700;
+  }
+}
+
+/* Responsive Utility Classes */
+@media (min-width: 640px) {
+  .header {
+    @apply text-4xl;
+  }
+
+  .footer {
+    @apply text-lg;
+  }
+
+  .nav ul {
+    @apply gap-10;
+  }
+
+  .section {
+    @apply p-10;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    @apply text-5xl;
+  }
+
+  .footer {
+    @apply text-xl;
+  }
+
+  .nav ul {
+    @apply gap-12;
+  }
+
+  .section {
+    @apply p-12;
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Network } from './Bitcellular';
 import { Game } from './Game';
-import './App.css';
+import './styles/global.module.scss';
 
 const App: React.FC = () => {
     return (

@@ -1,0 +1,123 @@
+/* General Styles */
+$app-card-border: #ddd;
+$app-background-color: #f9f9f9;
+$app-primary-color: #333;
+$app-secondary-color: #666;
+$app-accent-color: #007bff;
+$app-padding: 16px;
+$app-margin: 16px;
+$app-border-radius: 4px;
+
+/* App List Styles */
+.app-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: $app-background-color;
+  padding: $app-padding;
+
+  .app-card {
+    border: 1px solid $app-card-border;
+    padding: $app-padding;
+    margin: $app-margin;
+    width: 200px;
+    text-align: center;
+    border-radius: $app-border-radius;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      color: $app-primary-color;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      color: $app-secondary-color;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: $app-accent-color;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+/* App Search Styles */
+.app-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $app-margin;
+  input[type='text'] {
+    padding: $app-padding;
+    margin-right: $app-padding;
+    border-radius: $app-border-radius;
+    border: 1px solid $app-card-border;
+    width: 200px;
+  }
+
+  button {
+    padding: $app-padding;
+    background-color: $app-accent-color;
+    color: white;
+    border: none;
+    border-radius: $app-border-radius;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darken($app-accent-color, 10%);
+    }
+  }
+}
+
+/* App Details Styles */
+.app-details {
+  margin: $app-margin;
+  padding: $app-padding;
+  border: 1px solid $app-card-border;
+  border-radius: $app-border-radius;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    color: $app-primary-color;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: $app-secondary-color;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Layout Styles */
+.main-layout {
+  header {
+    background-color: $app-primary-color;
+    color: white;
+    padding: $app-padding;
+    text-align: center;
+    font-size: 1.5rem;
+
+    h1 {
+      margin: 0;
+    }
+  }
+
+  main {
+    padding: $app-padding;
+    background-color: $app-background-color;
+    min-height: 80vh;
+  }
+
+  footer {
+    background-color: $app-primary-color;
+    color: white;
+    padding: $app-padding;
+    text-align: center;
+  }
+}
