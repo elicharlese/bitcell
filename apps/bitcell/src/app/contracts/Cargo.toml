@@ -5,3 +5,6 @@ members = [
     "bitcell",
     "utils",
 ]
+
+[dependencies]
+sentry = "0.34.0"
